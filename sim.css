@@ -1,0 +1,36 @@
+.container{
+    height:max-content;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+}
+.bucket{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 5px;
+
+}
+.ub{
+    padding: 4px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+  .flash {
+        background-color: aliceblue;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.9);
+        transform: scale(1.1); /* Slightly enlarges the button */
+ }
+ 
